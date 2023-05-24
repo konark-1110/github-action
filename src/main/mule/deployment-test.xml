@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="deployment-testFlow" doc:id="569b6f98-ceda-4157-a8d2-00ba5a6e9b78" >
+		<scheduler doc:name="Scheduler" doc:id="170d1336-ba3a-4028-b8ec-cb6185e911da" >
+			<scheduling-strategy >
+				<fixed-frequency />
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="a0b6573f-9dcd-43f4-85ea-466a2b4a685f" message="Test Logger"/>
+	</flow>
+</mule>
