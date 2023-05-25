@@ -9,6 +9,7 @@
 				<fixed-frequency />
 			</scheduling-strategy>
 		</scheduler>
-		<logger level="INFO" doc:name="Logger" doc:id="a0b6573f-9dcd-43f4-85ea-466a2b4a685f" message="Test Loggers"/>
+		<logger level="INFO" doc:name="Logger" doc:id="c48e0a53-51a9-4eae-a1eb-b26b0dad8261" message="New :Logger"/>
+		<logger level="INFO" doc:name="Logger" doc:id="a0b6573f-9dcd-43f4-85ea-466a2b4a685f" message="Test Loggers Test"/>
 	</flow>
 </mule>
